@@ -177,44 +177,182 @@
       </nav>
     </header>
 
-    <!-- HERO SECTION -->
+    <!-- CONTACT SECTION -->
 
-    <div class="mx-auto relative">
-      <img src="images/charity.webp" class="w-full h-auto" />
-      <div
-        class="bg-black bg-opacity-30 h-full w-full absolute top-0 right-0"
-      ></div>
-      <h1
-        class="absolute top-1/2 right-1/2 translate-x-1/2 -translate-y-1/2 z-20 text-center text-3xl md:text-5xl lg:text-6xl xl:text-7xl font-bold pb-6 text-white pt-5"
-      >
-        How we give back
-      </h1>
-    </div>
-    <section class="py-10 md:py-20">
-      <div class="px-4 mx-auto max-w-7xl">
-        <p class="text-blue text-base text-center lg:text-left lg:w-8/12">
-          Abaguquli means Transformers, translated from Zulu. It Is also our
-          philosophy. We aim to transform lives through education and
-          innovation. We are a Black, Women owned level 1 BBBEE registered
-          non-profit company and nonprofit organisation dedicated and passionate
-          about transformation. <br /><br />
-          It's our mission to empower the youth with skills to become
-          financially independent and do freelancing, start co-operatives or
-          their own business. Abaguquli offers a range of training interventions
-          and managed and support services across industries.
-        </p>
-        <div class="flex flex-col sm:flex-row gap-3 mt-6">
-          <a
-            href="contact.html"
-            class="inline-flex items-center justify-center px-12 py-2.5 text-base font-medium bg-gradient-to-r from-blue to-purple text-white transition-all duration-200 border border-transparent rounded-full hover:shadow-md hover:shadow-purple"
-          >
-            Donate Now
-          </a>
-          <a
-            href="mailto:admin@abaguquli.co.za?subject=I want to learn more about your NPO]=\]"
-            class="inline-flex items-center justify-center ring-2 ring-purple text-blue hover:bg-blue hover:ring-0 hover:text-white px-12 py-3 rounded-3xl transition-all"
-            >Learn more</a
-          >
+    <section class="py-12 bg-gray-50 sm:py-16 lg:py-20 xl:py-24">
+      <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+        <div
+          class="grid grid-cols-1 lg:grid-cols-2 gap-y-12 lg:gap-x-16 xl:gap-x-36"
+        >
+          <div class="flex flex-col self-stretch justify-between">
+            <div class="flex-1">
+              <h2
+                class="text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl lg:text-5xl"
+              >
+                Contact Us
+              </h2>
+              <p
+                class="mt-4 text-base font-normal leading-7 text-gray-600 lg:text-lg lg:mt-6 lg:leading-8"
+              >
+                For any inquiries or questions please fill out the form below
+                and we will get in touch with you as soon as possible!
+              </p>
+            </div>
+
+            <div class="grid grid-cols-1 gap-8 mt-12 sm:grid-cols-2 lg:mt-auto">
+              <div>
+                <h3
+                  class="text-yellow text-xs font-bold tracking-widest text-peach uppercase"
+                >
+                  BUSINESS HOURS
+                </h3>
+                <p class="mt-5 text-base font-medium text-gray-900">
+                  Monday-Friday<br />
+                  9:00 am to 5:00 pm
+                </p>
+              </div>
+
+              <div>
+                <h3
+                  class="text-yellow text-xs font-bold tracking-widest text-peach uppercase"
+                >
+                  Our Address
+                </h3>
+                <p class="mt-5 text-base font-medium text-gray-900">
+                  Unit 9, Cannon Island Villas, Sunrise Boulevard Muizenberg<br />
+                  7945
+                </p>
+              </div>
+
+              <div>
+                <h3
+                  class="text-yellow text-xs font-bold tracking-widest text-peach uppercase"
+                >
+                  Get In Touch
+                </h3>
+                <p class="mt-5 text-base font-medium text-gray-900">
+                  +27 21-023-1269 <br />
+                  info@abaguquli.co.za <br />
+                  aasiyah@abaguquli.co.za (Founder)
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-white shadow-xl rounded-2xl" id="form">
+            <div class="p-6 sm:p-10">
+              <form
+                action="https://formsubmit.co/admin@abaguquli.co.za"
+                method="POST"
+                enctype="multipart/form-data"
+                class="mt-14 space-y-6"
+              >
+                <div class="mt-2">
+                  <label
+                    for="fullName"
+                    class="text-base font-medium text-gray-900"
+                  >
+                    Your name <span class="text-red-600">*</span>
+                  </label>
+                  <div class="mt-1">
+                    <input
+                      type="text"
+                      name="fullName"
+                      id="fullName"
+                      placeholder="Enter your full name"
+                      required
+                      class="block w-full px-4 py-4 text-base text-gray-900 bg-white border border-gray-200 rounded-xl focus:outline-none focus:border-purple focus:ring-1 focus:ring-purple"
+                    />
+                  </div>
+                </div>
+
+                <div class="mt-2">
+                  <label
+                    for="email"
+                    class="text-base font-medium text-gray-900"
+                  >
+                    Email address <span class="text-red-600">*</span>
+                  </label>
+                  <div class="mt-1">
+                    <input
+                      type="email"
+                      name="email"
+                      id="email"
+                      placeholder="Enter your email"
+                      required
+                      class="block w-full px-4 py-4 text-base text-gray-900 bg-white border border-gray-200 rounded-xl focus:outline-none focus:border-purple focus:ring-1 focus:ring-purple"
+                    />
+                  </div>
+                </div>
+
+                <div class="mt-2">
+                  <label
+                    for="number"
+                    class="text-base font-medium text-gray-900"
+                  >
+                    Phone Number <span class="text-red-600">*</span>
+                  </label>
+                  <div class="mt-1">
+                    <input
+                      type="number"
+                      name="number"
+                      id="number"
+                      placeholder="Enter your number"
+                      required
+                      class="block w-full px-4 py-4 text-base text-gray-900 bg-white border border-gray-200 rounded-xl focus:outline-none focus:border-purple focus:ring-1 focus:ring-purple"
+                    />
+                  </div>
+                </div>
+
+                <div class="mt-2">
+                  <label
+                    for="services"
+                    class="text-base font-medium text-gray-900"
+                  >
+                    What service are you inquiring about?
+                  </label>
+                  <div class="mt-1">
+                    <select
+                      name="services"
+                      id="services"
+                      class="block w-full px-4 py-4 text-base text-gray-900 bg-white border border-gray-200 resize-y rounded-xl focus:outline-none focus:border-purple focus:ring-1 focus:ring-purple"
+                    >
+                      <option value="make-donation">Making a Donation</option>
+                      <option value="training-programme">
+                        Training Programmes
+                      </option>
+                      <option value="other">Other</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="mt-2">
+                  <label
+                    for="message"
+                    class="text-base font-medium text-gray-900 mt-1"
+                  >
+                    Write your message
+                  </label>
+                  <div class="mt-2">
+                    <textarea
+                      name="message"
+                      id="message"
+                      placeholder="Write us your question here..."
+                      rows="4"
+                      class="block w-full px-4 py-4 text-base text-gray-900 bg-white border border-gray-200 resize-y rounded-xl focus:outline-none focus:border-purple focus:ring-1 focus:ring-purple"
+                    ></textarea>
+                  </div>
+                </div>
+
+                <button
+                  type="submit"
+                  class="inline-flex mt-4 items-center justify-center px-12 py-3 text-base font-medium text-white transition-all duration-200 bg-gradient-to-r from-blue to-purple border border-transparent rounded-3xl hover:shadow-purple focus:outline-none focus:ring-2 focus:ring-offset-2 focus:shadow-purple"
+                >
+                  Send message
+                </button>
+              </form>
+            </div>
+          </div>
         </div>
       </div>
     </section>

@@ -7,6 +7,31 @@
     <link rel="stylesheet" href="output.css" />
     <link rel="icon" href="images/abaguquli-logo.png" />
     <title>Home | Abaguquli</title>
+
+    <script
+      type="text/javascript"
+      src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"
+    ></script>
+    <script type="text/javascript">
+      (function ($) {
+        window.fnames = new Array();
+        window.ftypes = new Array();
+        fnames[0] = "EMAIL";
+        ftypes[0] = "email";
+        fnames[1] = "FNAME";
+        ftypes[1] = "text";
+        fnames[2] = "LNAME";
+        ftypes[2] = "text";
+        fnames[3] = "ADDRESS";
+        ftypes[3] = "address";
+        fnames[4] = "PHONE";
+        ftypes[4] = "phone";
+        fnames[5] = "BIRTHDAY";
+        ftypes[5] = "birthday";
+      })(jQuery);
+      var $mcj = jQuery.noConflict(true);
+    </script>
+    <!--End mc_embed_signup-->
   </head>
   <body>
     <div class="relative">
@@ -61,7 +86,7 @@
               <div class="hidden lg:flex lg:items-center lg:space-x-10">
                 <a
                   href="training.html"
-                  title="Learn more about the training programmes that we offer at Abaguquli."
+                  title="We offer many courses amongst many different sectors to enable and empower people around us. Take a look at the various courses we have to offer."
                   class="text-base font-medium text-champagne hover:text-purple focus:text-purple transition-all duration-200"
                 >
                   Training
@@ -69,27 +94,27 @@
 
                 <a
                   href="npo.html"
-                  title="Learn more about how we give back at Abaguquli."
+                  title="Learn more about how we give back to the community."
                   class="text-base font-medium text-champagne hover:text-purple focus:text-purple transition-all duration-200"
                 >
                   Giving Back
                 </a>
 
                 <a
-                  href="contact-us.html"
-                  title=""
+                  href="media.html"
+                  title="Abaguquli has been featured in the media multiple times. View the articles and posts we have recently been featured in"
                   class="text-base font-medium text-champagne hover:text-purple focus:text-purple transition-all duration-200"
                 >
-                  Contact Us
+                  Media
                 </a>
 
                 <a
-                  href="book.html"
-                  title=""
+                  href="contact-us.html"
+                  title="Get in touch with us!"
                   class="inline-flex items-center justify-center px-8 py-2.5 text-base font-medium bg-gradient-to-r from-blue to-purple text-white transition-all duration-200 border border-transparent rounded-full hover:shadow-md hover:shadow-purple"
                   role="button"
                 >
-                  Join the cause
+                  Contact Us
                 </a>
               </div>
             </nav>
@@ -99,51 +124,59 @@
         <!-- xs to lg -->
         <nav
           id="phone-menu"
-          class="hidden bg-champagne flex-col justify-between w-full min-h-50 px-10 py-10 bg-adopt sm:px-6 md:hidden lg:hidden xl:hidden"
+          class="hidden ease-in flex-col w-screen h-screen fixed overflow-hidden top-0 right-0 z-10 px-10 py-10 bg-gray-50 sm:px-6"
         >
-          <div class="flex flex-col flex-grow h-full items-center">
-            <nav class="flex flex-col flex-1 space-y-2 items-center">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6"
+            id="exit-btn"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M6 18L18 6M6 6l12 12"
+            />
+          </svg>
+
+          <div class="flex flex-col flex-grow h-full items-end">
+            <nav class="flex flex-col space-y-2 items-end">
               <a
-                href="accomodation.html"
-                title=""
-                class="flex py-2 font-medium text-white transition-all duration-200 hover:translate-x-1 focus:translate-x-1"
+                href="training.html"
+                title="We offer many courses amongst many different sectors to enable and empower people around us. Take a look at the various courses we have to offer."
+                class="flex py-2 font-medium text-blue transition-all duration-200 hover:translate-x-1 focus:translate-x-1"
               >
-                Accomodation
+                Training
               </a>
 
               <a
-                href="entertainment.html"
-                title=""
-                class="flex py-2 font-medium text-white transition-all duration-200 hover:translate-x-1 focus:translate-x-1"
+                href="npo.html"
+                title="Learn more about how we give back to the community."
+                class="flex py-2 font-medium text-blue transition-all duration-200 hover:translate-x-1 focus:translate-x-1"
               >
-                Entertainment
+                Giving Back
               </a>
 
               <a
-                href="time-share.html"
-                title=""
-                class="flex py-2 font-medium text-white transition-all duration-200 hover:translate-x-1 focus:translate-x-1"
+                href="media.html"
+                title="Abaguquli has been featured in the media multiple times. View the articles and posts we have recently been featured in"
+                class="flex py-2 font-medium text-blue transition-all duration-200 hover:translate-x-1 focus:translate-x-1"
               >
-                Timeshare
-              </a>
-
-              <a
-                href="contact-us.html"
-                title=""
-                class="flex py-2 font-medium text-white transition-all duration-200 hover:translate-x-1 focus:translate-x-1"
-              >
-                Contact Us
+                Media
               </a>
             </nav>
 
             <div class="flex flex-col mt-6">
               <a
-                href="book.html"
-                title="Book your stay now at Champagne Lane."
-                class="inline-flex items-center justify-center px-8 py-2.5 text-base font-medium text- transition-all duration-200 border border-transparent rounded-2xl shadow-sm hover:bg-champagne-ultralight focus:bg-champagne-ultralight focus:outline-none"
+                href="contact-us.html"
+                title="Get in touch with us!"
+                class="inline-flex items-end justify-center px-8 py-2.5 text-base font-medium bg-gradient-to-r from-blue to-purple text-white transition-all duration-200 border border-transparent rounded-full hover:shadow-md hover:shadow-purple"
                 role="button"
               >
-                Book Now
+                Contact Us
               </a>
             </div>
           </div>
@@ -377,28 +410,23 @@
         </div>
         <div class="mx-auto mt-12 sm:mt-16 lg:mt-22">
           <div
-            id="ux-design"
             class="grid grid-cols-1 md:grid-cols-2 md:gap-x-16 gap-y-8 items-start"
           >
             <div class="md:justify-self-end">
               <h3 class="text-4xl text-center font-bold text-blue mb-5">
-                UX Design
+                Digital Entrepreneurship
               </h3>
             </div>
             <div class="text-center md:text-left">
               <p
                 class="text-base font-normal text-black-3 mb-4 leading-relaxed"
               >
-                At Lumaza Labs, we prioritize the user experience above all
-                else. We believe that the key to a great product is a seamless
-                and intuitive user experience. Crafting an exceptional user
-                experience that is both effective and enjoyable is our top
-                priority. Conducting user testing at every stage of the
-                development process is crucial to ensure that your product meets
-                the needs and expectations of your users. We are constantly
-                seeking ways to improve the user experience for our customers,
-                whether through new features or design updates. This service is
-                currently still in development but is coming soon!
+                This training provides the knowledge and ability to become a
+                successful entrepreneur in the technology sector within the
+                fourth industrial revolution. Through experiential learning
+                methodology, they will develop relevant and practical skills in
+                technology venture creation, business model innovation, product
+                marketing, sales process and business management framework.
               </p>
               <a
                 href="#"
@@ -424,12 +452,11 @@
           </div>
 
           <div
-            id="web-design"
             class="grid items-start grid-cols-1 md:grid-cols-2 md:gap-x-16 gap-y-8 pt-20"
           >
             <div class="md:order-last text-center md:justify-self-start">
               <h3 class="text-4xl md:text-right font-bold text-blue">
-                Web Design
+                Artificial Intelligence Software Developer
               </h3>
             </div>
 
@@ -437,19 +464,18 @@
               <p
                 class="text-base md:text-left font-normal text-black-3 mb-4 leading-relaxed"
               >
-                Web design plays a crucial role in creating a positive user
-                experience. A well-designed website is easy to navigate,
-                visually appealing, and functions seemlessly accross all
-                devices. At Lumaza Labs, we understand the importance of good
-                web design and strive to create websites that meet the needs and
-                preferences of our clients. We also make sure to prioritize
-                usability, ensuring that our websites are easy to use and
-                intuitive for our users. Ultimately, our goal is to create a
-                website that not only looks good, but also effectively
-                communicates the value and message of our clients' brands.
+                The purpose of this qualification is to prepare a learner to
+                operate as an Artificial Intelligence Software Developer
+                Artificial Intelligence Developers build AI functionality into
+                software applications through integrating and implementing AI
+                algorithms and logic into the deliverables of an IT
+                project.Developers teach the machine to solve problems the way a
+                human would through the use of programming. They create, test,
+                and deploy code. These developers also assist in converting
+                machine learning APIs so that other applications can use them
               </p>
               <a
-                href="#"
+                href="training.html#artificial-intelligence"
                 class="inline-flex justify-around bg-gradient-to-r from-blue to-purple hover:shadow-purple transition-all w-56 py-2 rounded-full"
               >
                 <p class="text-white text-">Learn more</p>
@@ -473,27 +499,21 @@
 
           <div class="mx-auto mt-12 sm:mt-16 lg:mt-22">
             <div
-              id="ux-design"
               class="grid grid-cols-1 md:grid-cols-2 md:gap-x-16 gap-y-8 items-start"
             >
               <div class="md:justify-self-end text-center">
-                <h3 class="text-4xl font-bold text-blue mb-5">UX Design</h3>
+                <h3 class="text-4xl font-bold text-blue mb-5">Robotics</h3>
               </div>
               <div class="text-center md:text-left">
                 <p
                   class="text-base font-normal text-black-3 mb-4 leading-relaxed"
                 >
-                  At Lumaza Labs, we prioritize the user experience above all
-                  else. We believe that the key to a great product is a seamless
-                  and intuitive user experience. Crafting an exceptional user
-                  experience that is both effective and enjoyable is our top
-                  priority. Conducting user testing at every stage of the
-                  development process is crucial to ensure that your product
-                  meets the needs and expectations of your users. We are
-                  constantly seeking ways to improve the user experience for our
-                  customers, whether through new features or design updates.
-                  This service is currently still in development but is coming
-                  soon!
+                  The individual will learn mathematical concepts and
+                  programming tools to design, build and program robots that
+                  solve industry-relevant and real-world problems.cIf you are
+                  excited about exploring a career as a robotic Engineer or to
+                  manage robotic automated systems then this is for you or
+                  precision agriculture or aerospace and other engineering.
                 </p>
                 <a
                   href="#"
@@ -533,7 +553,7 @@
             Featured Articles
           </h2>
           <div
-            class="grid grid-cols-1 md:grid-cols-2 grid-rows-4 md:grid-rows-2"
+            class="grid grid-cols-1 md:grid-cols-2 grid-rows-4 md:grid-rows-2 justify-items-center md:justify-items-start"
           >
             <div class="text-center md:text-left mt-10">
               <h4
@@ -542,7 +562,34 @@
                 Uvani 2022 Digital Entrepreneurship
               </h4>
               <a
-                href="#"
+                href="https://www.linkedin.com/posts/aasiyahadams_entrepreneurship-entrepreneur-digital-activity-7005478840818896897-BLkU?utm_source=share&utm_medium=member_desktop"
+                class="inline-flex justify-around bg-gradient-to-r from-blue to-purple hover:shadow-purple transition-all w-56 py-2 rounded-full"
+              >
+                <p class="text-white text-center">Learn more</p>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6 text-white"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                  />
+                </svg>
+              </a>
+            </div>
+            <div class="text-center md:text-left mt-10">
+              <h4
+                class="text-blue font-bold uppercase text-base md:text-xl tracking-wider mb-4"
+              >
+                SABC NEWS INTERVIEW
+              </h4>
+              <a
+                href="https://www.youtube.com/watch?v=yUfuIdo4nYU"
                 class="inline-flex justify-around bg-gradient-to-r from-blue to-purple hover:shadow-purple transition-all w-56 py-2 rounded-full"
               >
                 <p class="text-white text-">Learn more</p>
@@ -566,10 +613,10 @@
               <h4
                 class="text-blue font-bold uppercase text-base md:text-xl tracking-wider mb-4"
               >
-                Uvani 2022 Digital Entrepreneurship
+                Sunday times
               </h4>
               <a
-                href="#"
+                href="https://www.timeslive.co.za/sunday-times/business/2021-02-07-my-brilliant-career-helping-young-people-prepare-for-revolution/"
                 class="inline-flex justify-around bg-gradient-to-r from-blue to-purple hover:shadow-purple transition-all w-56 py-2 rounded-full"
               >
                 <p class="text-white text-">Learn more</p>
@@ -593,37 +640,10 @@
               <h4
                 class="text-blue font-bold uppercase text-base md:text-xl tracking-wider mb-4"
               >
-                Uvani 2022 Digital Entrepreneurship
+                Ngo pulse
               </h4>
               <a
-                href="#"
-                class="inline-flex justify-around bg-gradient-to-r from-blue to-purple hover:shadow-purple transition-all w-56 py-2 rounded-full"
-              >
-                <p class="text-white text-">Learn more</p>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="1.5"
-                  stroke="currentColor"
-                  class="w-6 h-6 text-white"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M8.25 4.5l7.5 7.5-7.5 7.5"
-                  />
-                </svg>
-              </a>
-            </div>
-            <div class="text-center md:text-left mt-10">
-              <h4
-                class="text-blue font-bold uppercase text-base md:text-xl tracking-wider mb-4"
-              >
-                Uvani 2022 Digital Entrepreneurship
-              </h4>
-              <a
-                href="#"
+                href="https://ngopulse.net/newsflash/unemployed-youth-empowered-with-4ir-skills/"
                 class="inline-flex justify-around bg-gradient-to-r from-blue to-purple hover:shadow-purple transition-all w-56 py-2 rounded-full"
               >
                 <p class="text-white text-">Learn more</p>
@@ -664,18 +684,14 @@
           </div>
 
           <div class="xl:pr-24">
-            <img
-              class="w-auto h-7"
-              src="https://cdn.rareblocks.xyz/collection/clarity/images/testimonial/8/crowny-logo.svg"
-              alt=""
-            />
-
             <blockquote class="mt-8 md:mt-16">
               <p
                 class="text-xl font-medium leading-relaxed text-gray-900 font-pj"
               >
-                “Simply the best. Better than all the rest. I’d recommend this
-                product to beginners and all users.”
+                "Thank you to Abaguquli for empowering possibilities and giving
+                me the chance to showcase my creativity & I have learnt so much
+                and appreciate the time you spent teaching me new skills and
+                useful 4IR programs."
               </p>
             </blockquote>
 
@@ -683,14 +699,14 @@
               <p
                 class="text-lg font-normal leading-relaxed text-gray-900 font-pj"
               >
-                “You made it so simple. My new site is so much faster and easier
-                to work with than my old site. I just choose the page, make the
-                change.”
+                "I feel I am ready for the next steps that will bring me closer
+                to my goals, to Aasiyah, thanks for your guidance, Prize &
+                believing in my business 👏🏼"
               </p>
             </blockquote>
 
             <p class="mt-5 text-base font-bold text-gray-400 md:mt-7 font-pj">
-              Leslie Alexander, Product Designer at Crowny
+              Mandisa Sishi
             </p>
           </div>
         </div>
@@ -806,20 +822,39 @@
               Newsletter
             </p>
 
-            <form action="#" method="POST" class="mt-5 space-y-4">
+            <form
+              action="https://abaguquli.us14.list-manage.com/subscribe/post?u=b909c53072fa2983486f927c4&amp;id=fce5129609&amp;f_id=009b92e0f0"
+              method="post"
+              id="mc-embedded-subscribe-form"
+              name="mc-embedded-subscribe-form"
+              class="validate mt-5 space-y-4"
+              target="_blank"
+              novalidate
+            >
               <div>
-                <label for="email" class="sr-only"> Email address </label>
+                <label for="mce-EMAIL" class="sr-only"> Email address </label>
                 <input
                   type="email"
-                  name="email"
-                  id="email"
+                  name="EMAIL"
+                  id="mce-EMAIL"
                   placeholder="Enter your email address"
                   class="block w-full px-4 py-4 text-base text-gray-900 border border-gray-200 rounded-xl bg-gray-50 focus:bg-white focus:outline-none focus:border-purple focus:ring-1 focus:ring-purple"
                 />
               </div>
-
+              <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+              <div style="position: absolute; left: -5000px" aria-hidden="true">
+                <input
+                  type="text"
+                  name="b_b909c53072fa2983486f927c4_fce5129609"
+                  tabindex="-1"
+                  value=""
+                />
+              </div>
               <button
                 type="submit"
+                value="Subscribe"
+                name="subscribe"
+                id="mc-embedded-subscribe"
                 class="inline-flex bg-gradient-to-r from-blue to-purple items-center justify-center w-full px-6 py-4 text-base font-medium text-white transition-all duration-200 border border-transparent rounded-full hover:shadow-purple focus:shadow-purple"
               >
                 Subscribe Now
@@ -844,4 +879,5 @@
       </div>
     </footer>
   </body>
+  <script src="script.js"></script>
 </html>
