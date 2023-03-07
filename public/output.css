@@ -518,7 +518,7 @@ video {
 .wave {
   width: 5px;
   height: 100px;
-  background: linear-gradient(45deg, cyan, #fff);
+  background: linear-gradient(45deg, #f552c7, #262262);
   margin: 10px;
   animation: wave 1s linear infinite;
   border-radius: 20px;
