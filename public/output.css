@@ -575,10 +575,6 @@ video {
   bottom: 0.75rem;
 }
 
-.left-1\/2{
-  left: 50%;
-}
-
 .right-0{
   right: 0px;
 }
@@ -797,6 +793,10 @@ video {
   width: 1.75rem;
 }
 
+.w-8{
+  width: 2rem;
+}
+
 .w-96{
   width: 24rem;
 }
@@ -819,10 +819,6 @@ video {
 
 .w-screen{
   width: 100vw;
-}
-
-.w-8{
-  width: 2rem;
 }
 
 .max-w-3xl{
@@ -863,27 +859,8 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.-translate-x-1\/2{
-  --tw-translate-x: -50%;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
 .transform{
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-@keyframes wave{
-  0%, 100%{
-    transform: scale(1);
-  }
-
-  50%{
-    transform: scale(0);
-  }
-}
-
-.animate-wave{
-  animation: wave 1s linear infinite;
 }
 
 @keyframes bounce{
@@ -900,6 +877,20 @@ video {
 
 .animate-bounce{
   animation: bounce 1s infinite;
+}
+
+@keyframes wave{
+  0%, 100%{
+    transform: scale(1);
+  }
+
+  50%{
+    transform: scale(0);
+  }
+}
+
+.animate-wave{
+  animation: wave 1s linear infinite;
 }
 
 .resize-y{
@@ -1270,11 +1261,6 @@ video {
   padding-bottom: 1.25rem;
 }
 
-.py-6{
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-}
-
 .py-8{
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -1292,8 +1278,8 @@ video {
   padding-bottom: 4rem;
 }
 
-.pb-24{
-  padding-bottom: 6rem;
+.pb-36{
+  padding-bottom: 9rem;
 }
 
 .pb-6{
@@ -1346,14 +1332,6 @@ video {
 
 .pt-8{
   padding-top: 2rem;
-}
-
-.pb-28{
-  padding-bottom: 7rem;
-}
-
-.pb-36{
-  padding-bottom: 9rem;
 }
 
 .text-left{
@@ -2268,8 +2246,8 @@ video {
     padding-bottom: 6rem;
   }
 
-  .xl\:pb-44{
-    padding-bottom: 11rem;
+  .xl\:pb-20{
+    padding-bottom: 5rem;
   }
 
   .xl\:pb-52{
@@ -2290,6 +2268,10 @@ video {
 
   .xl\:pt-40{
     padding-top: 10rem;
+  }
+
+  .xl\:pb-24{
+    padding-bottom: 6rem;
   }
 
   .xl\:text-4xl{
