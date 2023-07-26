@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-2C2XW6RGER"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-2C2XW6RGER");
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="The TGE 2023 conference brings together stakeholders from all over the country to discuss the future of work and hybrid workforce model. Reserve your spot today!"
+    />
+    <meta name="keywords" content="" />
+    <meta
+      name="og:title"
+      content="TGE2023 | A look into the Future of the Gig Economy"
+    />
+    <meta
+      name="og:description"
+      content="The TGE 2023 conference brings together stakeholders from all over the country to discuss the future of work and hybrid workforce model. Reserve your spot today!"
+    />
+    <meta name="og:img" content="https://abaguquli.co.za/images/tge_og-logo." />
+    <title>TGE2023 | A look into the Future of the Gig Economy</title>
+    <link rel="stylesheet" href="output.css" />
+    <link rel="icon" href="images/favicon.webp" />
+  </head>
+  <body class="">
+    <!-- SPINNER -->
+    <div
+      id="loader"
+      class="h-screen w-screen overflow-hidden flex justify-center items-center bg-white z-50"
+    >
+      <div class="wave animate-wave"></div>
+      <div class="wave animate-wave animation-delay-100"></div>
+      <div class="wave animate-wave animation-delay-200"></div>
+      <div class="wave animate-wave animation-delay-300"></div>
+      <div class="wave animate-wave animation-delay-400"></div>
+      <div class="wave animate-wave animation-delay-500"></div>
+      <div class="wave animate-wave animation-delay-600"></div>
+      <div class="wave animate-wave animation-delay-700"></div>
+      <div class="wave animate-wave animation-delay-800"></div>
+      <div class="wave animate-wav animation-delay-900"></div>
+    </div>
+    <div class="relative">
+      <img
+        src="images/abaguquli-bg.webp"
+        class="h-full absolute right-0 -z-10 hidden md:block"
+      />
+      <header class="relative bg-transparent max-w-7xl mx-auto">
+        <!-- lg+ -->
+        <div class="relative py-2 px-4 mx-auto sm:px-6 lg:px-8">
+          <div class="w-full py-2 px-4 m-auto sm:px-6 lg:px-8">
+            <nav class="flex items-center justify-between h-auto">
+              <div class="flex-shrink- 0">
+                <a
+                  href="index.html"
+                  title="Go visit the Abaguquli Home Page"
+                  class="flex"
+                >
+                  <img
+                    class="w-auto h-20 md:h-24 xl:h-28"
+                    src="images/abaguquli4ir-logo.webp"
+                    alt="Abguquli Logo"
+                  />
+                </a>
+              </div>
+              <button
+                type="button"
+                id="menu-btn"
+                class="inline-flex p-2 text-adopt transition-all duration-200 rounded-2xl lg:hidden focus:text-adopt-dark hover:text-adopt-dark"
+              >
+                <svg
+                  class="w-7 h-7"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h16m-7 6h7"
+                  />
+                </svg>
+              </button>
+              <div class="hidden lg:flex lg:items-center lg:space-x-10">
+                <a
+                  href="training.html"
+                  title="We offer many courses amongst many different sectors to enable and empower people around us. Take a look at the various courses we have to offer."
+                  class="text-base font-medium text-champagne hover:text-purple focus:text-purple transition-all duration-200"
+                >
+                  Training
+                </a>
+                <a
+                  href="npo.html"
+                  title="Learn more about how we give back to the community."
+                  class="text-base font-medium text-champagne hover:text-purple focus:text-purple transition-all duration-200"
+                >
+                  Giving Back
+                </a>
+                <a
+                  href="media.html"
+                  title="Abaguquli has been featured in the media multiple times. View the articles and posts we have recently been featured in"
+                  class="text-base font-medium text-champagne hover:text-purple focus:text-purple transition-all duration-200"
+                >
+                  Media
+                </a>
+                <a
+                  href="contact-us.html"
+                  title="Get in touch with us!"
+                  class="text-base font-medium text-champagne hover:text-purple focus:text-purple transition-all duration-200"
+                >
+                  Get in touch
+                </a>
+                <a
+                  href="https://qkt.io/Fmzch8"
+                  title="Vote for us on the Southern Africa Start-up Awards"
+                  class="inline-flex items-center justify-center px-8 py-2.5 text-base font-medium bg-gradient-to-r from-blue to-purple text-white transition-all duration-200 border border-transparent rounded-full hover:shadow-md hover:shadow-purple"
+                  role="button"
+                >
+                  Book Now!
+                </a>
+              </div>
+            </nav>
+          </div>
+        </div>
+
+        <!-- xs to lg -->
+        <nav
+          id="phone-menu"
+          class="hidden fixed ease-in flex-col w-screen h-screen overflow-hidden top-0 right-0 z-10 px-10 py-10 bg-gray-50 sm:px-6"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6"
+            id="exit-btn"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M6 18L18 6M6 6l12 12"
+            />
+          </svg>
+          <div class="flex flex-col flex-grow h-full items-end">
+            <nav class="flex flex-col space-y-2 items-end">
+              <!-- <a id="aboutUs"
+                  href="#about-us"
+                  title="We offer an online, onsite and hybrid model using applied training and learning models. Our objective is to provide skills to improve the lives of individuals and contribute to a healthy economy!"
+                  class="flex py-2 font-medium text-blue transition-all duration-200 hover:translate-x-1 focus:translate-x-1"
+                >
+                  About
+                </a> -->
+              <a
+                href="training.html"
+                title="We offer many courses amongst many different sectors to enable and empower people around us. Take a look at the various courses we have to offer."
+                class="flex py-2 font-medium text-blue transition-all duration-200 hover:translate-x-1 focus:translate-x-1"
+              >
+                Training
+              </a>
+
+              <a
+                href="npo.html"
+                title="Learn more about how we give back to the community."
+                class="flex py-2 font-medium text-blue transition-all duration-200 hover:translate-x-1 focus:translate-x-1"
+              >
+                Giving Back
+              </a>
+
+              <a
+                href="media.html"
+                title="Abaguquli has been featured in the media multiple times. View the articles and posts we have recently been featured in"
+                class="flex py-2 font-medium text-blue transition-all duration-200 hover:translate-x-1 focus:translate-x-1"
+              >
+                Media
+              </a>
+              <a
+                href="contact-us.html"
+                title="Get in touch with us!"
+                class="flex py-2 font-medium text-blue transition-all duration-200 hover:translate-x-1 focus:translate-x-1"
+              >
+                Get in Touch
+              </a>
+            </nav>
+            <div class="flex flex-col mt-6">
+              <a
+                href="https://qkt.io/Fmzch8"
+                title=""
+                class="inline-flex items-end justify-center px-8 py-2.5 text-base font-medium bg-gradient-to-r from-blue to-purple text-white transition-all duration-200 border border-transparent rounded-full hover:shadow-md hover:shadow-purple"
+                role="button"
+              >
+                Book Now
+              </a>
+            </div>
+            <img
+              src="images/ellipse.webp"
+              class="md:hidden absolute -z-10 -left-14 bottom-0 w-96"
+            />
+            <!-- <div class="flex flex-col mt-6">
+                <a
+                  href="index.html#vote"
+                  id="vote-btn"
+                  title="Vote for us on the Southern Africa Start-up Awards!"
+                  class="inline-flex items-end justify-center px-8 py-2.5 text-base font-medium bg-gradient-to-r from-blue to-purple text-white transition-all duration-200 border border-transparent rounded-full hover:shadow-md hover:shadow-purple"
+                  role="button"
+                >
+                  Vote Now!
+                </a>
+              </div> -->
+          </div>
+        </nav>
+      </header>
+
+      <!-- HERO SECTION -->
+
+      <section
+        class="p-5 grid place-content-center h-full mb-36 py-44 xl:pb-52 xl:pt-20 2xl:pb-64"
+      >
+        <img
+          src="images/ellipse.webp"
+          class="md:hidden absolute -z-10 -left-10 top-5 w-64 h-64 sm:w-1/2 sm:h-1/2 sm:-top-10"
+        />
+        <div class="sm:w-2/3 sm:m-auto md:ml-0 lg:w-1/2 lg:items-center">
+          <img src="Logos/logo_full-blue.webp" alt="TGE 2023 header" />
+        </div>
+        <div
+          class="m-auto flex mt-5 mb-10 font-bold md:w-1/2 md:ml-0 md:justify-start md:pl-5 text-blue"
+        >
+          <p class="md:text-left uppercase flex text-center mr-5">
+            <span
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5m-9-6h.008v.008H12v-.008zM12 15h.008v.008H12V15zm0 2.25h.008v.008H12v-.008zM9.75 15h.008v.008H9.75V15zm0 2.25h.008v.008H9.75v-.008zM7.5 15h.008v.008H7.5V15zm0 2.25h.008v.008H7.5v-.008zm6.75-4.5h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V15zm0 2.25h.008v.008h-.008v-.008zm2.25-4.5h.008v.008H16.5v-.008zm0 2.25h.008v.008H16.5V15z"
+                />
+              </svg> </span
+            ><span id="longDate" class="hidden sm:flex">18 September 2023</span
+            ><span id="shortDate" class="sm:hidden">18 Sept 2023</span>
+          </p>
+          <p class="uppercase flex text-center">
+            <span
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"
+                />
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"
+                />
+              </svg> </span
+            >Johannesburg
+          </p>
+        </div>
+        <div
+          class="m-auto sm:w-1/2 sm:m-auto md:ml-0 md:flex flex flex-col sm:flex-row gap-3"
+        >
+          <a
+            href="TGE2023.html"
+            class="w-56 md:w-56 inline-flex items-center justify-center px-8 py-2.5 text-base font-medium bg-gradient-to-r from-blue to-purple text-white transition-all duration-200 border border-transparent rounded-full hover:shadow-md hover:shadow-purple"
+          >
+            More Info
+          </a>
+          <a
+            href="https://qkt.io/Fmzch8"
+            class="w-56 md:w-56 inline-flex items-center justify-center ring-2 ring-purple text-blue hover:bg-blue hover:ring-0 hover:text-white px-12 py-3 rounded-3xl transition-all"
+            >Book Now</a
+          >
+        </div>
+      </section>
+    </div>
+    <!-- FEATURED SECTION -->
+
+    <section class="py-8 md:py-8 lg:py-16">
+      <div class="max-w-8xl px-4 mx-auto sm:px-6 lg:px-8">
+        <div class="text-center">
+          <h2 class="text-xl font-semibold text-adopt">AS FEATURED IN...</h2>
+        </div>
+
+        <div
+          class="mx-auto grid grid-cols-2 grid-rows-2 md:grid-cols-5 md:grid-rows-1 justify-items-center mt-8 items-center gap-10"
+        >
+          <img class="h-24 w-auto" src="images/image-3.webp" />
+          <img class="h-24 w-auto" src="images/image-4.webp" />
+          <img class="h-24 w-auto" src="images/image-5.webp" />
+          <img class="h-24 w-auto" src="images/image-6.webp" />
+          <img class="h-24 w-auto" src="images/image-7.webp" />
+        </div>
+      </div>
+    </section>
+
+    <!-- VOTE NOW -->
+
+    <!-- <section id="vote" class="py-16 md:py-20 lg:py-28 bg-gray-50">
+      <div class="max-w-7xl px-4 mx-auto sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-2 p-5 gap-10 place-items-center">
+          <img src="images/vote_now.webp" class="md:w-8/12 h-auto" />
+          <div>
+            <h2
+              class="text-3xl md:text-4xl lg:text-5xl font-bold text-blue pb-8"
+            >
+              We need your vote!
+            </h2>
+            <p class="text-base text-blue pb-10 leading-relaxed">
+              We are proud to announce that we are @AfricanStartupAwards 2023
+              Regional Finalist! To help us reach the next round, please vote
+              and show your support. Click the button down below to vote for us
+              ABAGUQULI4IR!
+            </p>
+            <a
+              href="https://bit.ly/3MC6a8p"
+              target="_blank"
+              class="bg-blue rounded-xl hover:opacity-90 focus:opacity-90 tracking-wider text-white px-12 py-3 font-semibold"
+            >
+              VOTE NOW!
+            </a>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- ABOUT US -->
+
+    <section id="about-us" class="py-16 md:py-20 lg:py-28">
+      <div class="max-w-7xl px-4 mx-auto sm:px-6 lg:px-8">
+        <div class="text-center md:text-left xl:w-7/12">
+          <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-blue">
+            About Us
+          </h2>
+          <p class="text-blue font-light text-sm">
+            Why we work so hard for a brighter future
+          </p>
+          <p class="text-blue text-lg pt-5">
+            Abaguquli4IR Pty Ltd is a registered Level 1, BBBEE all women-owned
+            company that offers 4IR critical and scarce skills in the digital
+            and technology sector. We offer an online, onsite and hybrid model
+            using applied training and learning models. Our objective is to
+            provide skills to improve the lives of individuals and contribute to
+            a healthy economy!
+          </p>
+
+          <p class="font-light text-base text-blue pt-2">
+            ~ Aasiyah Adams, CEO
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- TRAINING SECTION -->
+
+    <section class="py-16 md:py-8 lg:py-24 bg-gray-50">
+      <div class="max-w-7xl px-4 mx-auto sm:px-6 lg:px-8">
+        <div class="">
+          <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-blue">
+            Our Training
+          </h2>
+        </div>
+        <div
+          class="grid grid-cols-1 md:grid-cols-3 grid-rows-3 md:grid-rows-1 gap-10 pt-10"
+        >
+          <a
+            href="training.html#qcto-training"
+            class="w-full h-full rounded-xl shadow-md bg-white hover:bg-gray-50 p-5 py-28"
+          >
+            <div class="flex flex-col items-center justify-center gap-6">
+              <h2 class="text-xl font-semibold text-center text-blue">
+                QUALIFICATIONS
+              </h2>
+              <svg
+                width="67"
+                height="67"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 96 960 960"
+              >
+                <path
+                  d="M480 576Zm-400 0q0-83 31.5-156t86-127Q252 239 325 207.5T480 176q36 0 71 6t67 18q-14 10-25 22.5T574 249q-23-7-46-10t-48-3q-141 0-240.5 99T140 576q0 141 99.5 240.5T480 916q142 0 241-99.5T820 576q0-25-3-48t-10-46q14-8 26.5-19t22.5-25q12 32 18 67t6 71q0 82-31.5 155T763 858.5q-54 54.5-127 86T480 976q-82 0-155-31.5t-127.5-86Q143 804 111.5 731T80 576Zm640-130q-45 0-77.5-32.5T610 336q0-46 32.5-78t77.5-32q46 0 78 32t32 78q0 45-32 77.5T720 446Z"
+                />
+              </svg>
+            </div>
+          </a>
+          <a
+            href="training.html#vendor-programmes"
+            class="w-full h-full rounded-xl shadow-md bg-white hover:bg-gray-50 transition-all p-5 py-28"
+          >
+            <div class="flex flex-col items-center justify-center gap-6">
+              <h2 class="text-xl font-semibold text-center text-blue">
+                SKILLS PROGRAMMES
+              </h2>
+              <img src="images/touch-tech.svg" alt="Technology touch icon" />
+            </div>
+          </a>
+          <a
+            href="training.html#short-programmes"
+            class="w-full h-full rounded-xl shadow-md bg-white hover:bg-gray-50 p-5 py-28"
+          >
+            <div class="flex flex-col items-center justify-center gap-6">
+              <h2 class="text-xl font-semibold text-center text-blue">
+                SHORT PROGRAMMES
+              </h2>
+              <img src="images/technology.svg" alt="Technology icon" />
+            </div>
+          </a>
+        </div>
+
+        <!-- MOST POPULAR COURSES -->
+
+        <div class="pt-32">
+          <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-blue">
+            Our Most Popular Courses
+          </h2>
+        </div>
+        <div class="mx-auto mt-12 sm:mt-16 lg:mt-22">
+          <div
+            class="grid grid-cols-1 md:grid-cols-2 md:gap-x-16 gap-y-8 items-start"
+          >
+            <div class="md:justify-self-end">
+              <h3 class="text-4xl text-center font-bold text-blue mb-5">
+                Digital Entrepreneurship
+              </h3>
+            </div>
+            <div class="text-center md:text-left">
+              <p class="text-base font-normal text-black-3 leading-relaxed">
+                Digital Entrepreneurship training and workshops online or hybrid
+                - we provide digital entrepreneurship training, by giving
+                Entrepreneurs, digital tools, tips and skills to:
+              </p>
+              <ul class="md:pl-3 pt-2 mb-4">
+                <li>i. Women in Business</li>
+                <li>ii. Unemployed graduate students</li>
+                <li>iii. Creatives and Artists</li>
+                <li>iv. Kid Entrepreneurs</li>
+              </ul>
+              <a
+                href="training.html#digital-entrepreneurship"
+                class="inline-flex justify-around bg-gradient-to-r from-blue to-purple hover:shadow-purple transition-all w-56 py-2 rounded-full"
+              >
+                <p class="text-white text-">Learn more</p>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6 text-white"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <div
+            class="grid items-start grid-cols-1 md:grid-cols-2 md:gap-x-16 gap-y-8 pt-20"
+          >
+            <div class="md:order-last text-center md:justify-self-start">
+              <h3 class="text-4xl md:text-right font-bold text-blue">
+                Artificial Intelligence Software Developer
+              </h3>
+            </div>
+
+            <div class="text-center md:text-right">
+              <p
+                class="text-base md:text-left font-normal text-black-3 mb-4 leading-relaxed"
+              >
+                The purpose of this qualification is to prepare a learner to
+                operate as an Artificial Intelligence Software Developer
+                Artificial Intelligence Developers build AI functionality into
+                software applications through integrating and implementing AI
+                algorithms and logic into the deliverables of an IT
+                project.Developers teach the machine to solve problems the way a
+                human would through the use of programming. They create, test,
+                and deploy code. These developers also assist in converting
+                machine learning APIs so that other applications can use them
+              </p>
+              <a
+                href="training.html#artificial-intelligence"
+                class="inline-flex justify-around bg-gradient-to-r from-blue to-purple hover:shadow-purple transition-all w-56 py-2 rounded-full"
+              >
+                <p class="text-white text-">Learn more</p>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6 text-white"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="mx-auto mt-12 sm:mt-16 lg:mt-22">
+            <div
+              class="grid grid-cols-1 md:grid-cols-2 md:gap-x-16 gap-y-8 items-start"
+            >
+              <div class="md:justify-self-end text-center">
+                <h3 class="text-4xl font-bold text-blue mb-5">Robotics</h3>
+              </div>
+              <div class="text-center md:text-left">
+                <p
+                  class="text-base font-normal text-black-3 mb-4 leading-relaxed"
+                >
+                  The individual will learn mathematical concepts and
+                  programming tools to design, build and program robots that
+                  solve industry-relevant and real-world problems.cIf you are
+                  excited about exploring a career as a robotic Engineer or to
+                  manage robotic automated systems then this is for you or
+                  precision agriculture or aerospace and other engineering.
+                </p>
+                <a
+                  href="training.html#robotics"
+                  class="inline-flex justify-around bg-gradient-to-r from-blue to-purple hover:shadow-purple transition-all w-56 py-2 rounded-full"
+                >
+                  <p class="text-white text-">Learn more</p>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-6 h-6 text-white"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURED ARTICLES -->
+
+    <section class="py-8 md:py-8 lg:py-24 bg-gray-50">
+      <div class="max-w-7xl px-4 mx-auto sm:px-6 lg:px-8">
+        <div class="bg-white rounded-3xl shadow-lg p-20 md:ml-20">
+          <h2
+            class="text-2xl md:text-2xl lg:text-3xl xl:text-4xl text-blue font-semibold mb-4 text-center md:text-left"
+          >
+            Featured Articles
+          </h2>
+          <div
+            class="grid grid-cols-1 md:grid-cols-2 grid-rows-4 md:grid-rows-2 justify-items-center md:justify-items-start"
+          >
+            <div class="text-center md:text-left mt-10">
+              <h4
+                class="text-blue font-bold uppercase text-base md:text-xl tracking-wider mb-4"
+              >
+                Netherlands Embassy
+              </h4>
+              <a
+                href="https://www.linkedin.com/feed/update/urn:li:activity:6977713654167130112?utm_source=share&utm_medium=member_ios"
+                title="Netherlands Embassy Article about Abaguquli"
+                class="inline-flex justify-around bg-gradient-to-r from-blue to-purple hover:shadow-purple transition-all w-56 py-2 rounded-full"
+              >
+                <p class="text-white text-center">Learn more</p>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6 text-white"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                  />
+                </svg>
+              </a>
+            </div>
+            <div class="text-center md:text-left mt-10">
+              <h4
+                class="text-blue font-bold uppercase text-base md:text-xl tracking-wider mb-4"
+              >
+                UK TECHNOLOGY HUB
+              </h4>
+              <a
+                href="https://www.linkedin.com/posts/aasiyahadams_feature-abaguquli-activity-6980111712192466944-n0l6?"
+                title="UK Technology Hub article about Abaguquli"
+                class="inline-flex justify-around bg-gradient-to-r from-blue to-purple hover:shadow-purple transition-all w-56 py-2 rounded-full"
+              >
+                <p class="text-white text-">Learn more</p>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6 text-white"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                  />
+                </svg>
+              </a>
+            </div>
+            <div class="text-center md:text-left mt-10">
+              <h4
+                class="text-blue font-bold uppercase text-base md:text-xl tracking-wider mb-4"
+              >
+                Sunday times
+              </h4>
+              <a
+                href="https://www.timeslive.co.za/sunday-times/business/2021-02-07-my-brilliant-career-helping-young-people-prepare-for-revolution/"
+                class="inline-flex justify-around bg-gradient-to-r from-blue to-purple hover:shadow-purple transition-all w-56 py-2 rounded-full"
+              >
+                <p class="text-white text-">Learn more</p>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6 text-white"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                  />
+                </svg>
+              </a>
+            </div>
+            <div class="text-center md:text-left mt-10">
+              <h4
+                class="text-blue font-bold uppercase text-base md:text-xl tracking-wider mb-4"
+              >
+                Soweto TV
+              </h4>
+              <a
+                href="https://www.linkedin.com/posts/aasiyahadams_interview-4ir-aieducation-activity-7019756079735549952-3ZLn?utm_source=share&utm_medium=member_desktop"
+                title="Soweto TV article about Abaguquli"
+                class="inline-flex justify-around bg-gradient-to-r from-blue to-purple hover:shadow-purple transition-all w-56 py-2 rounded-full"
+              >
+                <p class="text-white text-">Learn more</p>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6 text-white"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIAL SECTION -->
+    <section class="py-16 bg-gray-50 sm:py-16 lg:py-20">
+      <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <div
+          class="grid items-center grid-cols-1 md:grid-cols-2 md:gap-16 gap-y-10"
+        >
+          <div class="-mx-4 sm:mx-0 px-8">
+            <img
+              class="w-full max-w-md mx-auto rounded-full"
+              src="images/people.webp"
+              alt="Group of friends laughing together that represent Mandisa Sishi."
+            />
+          </div>
+
+          <div class="xl:pr-24">
+            <blockquote class="mt-8 md:mt-16">
+              <p
+                class="text-xl font-medium leading-relaxed text-gray-900 font-pj"
+              >
+                "Thank you to Abaguquli for empowering possibilities and giving
+                me the chance to showcase my creativity & I have learnt so much
+                and appreciate the time you spent teaching me new skills and
+                useful 4IR programs."
+              </p>
+            </blockquote>
+
+            <blockquote class="mt-5 md:mt-7">
+              <p
+                class="text-lg font-normal leading-relaxed text-gray-900 font-pj"
+              >
+                "I feel I am ready for the next steps that will bring me closer
+                to my goals, to Aasiyah, thanks for your guidance, Prize &
+                believing in my business 👏🏼"
+              </p>
+            </blockquote>
+
+            <p class="mt-5 text-base font-bold text-gray-400 md:mt-7 font-pj">
+              Mandisa Sishi
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer class="py-12 bg-gray-50 sm:pt-16 lg:pt-20">
+      <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+        <div
+          class="flex flex-wrap items-start md:justify-between gap-y-12 gap-x-24 md:gap-x-12"
+        >
+          <div class="w-full lg:w-64 xl:w-full xl:max-w-xs">
+            <a href="index.html" title="" class="flex">
+              <img
+                class="w-auto h-28"
+                src="images/abaguquli4ir-logo.webp"
+                alt="The Abaguquli Logo"
+              />
+            </a>
+
+            <p class="mt-8 text-base font-normal text-gray-500">
+              We are making a meaningful difference...on African soil and
+              internationally.
+            </p>
+          </div>
+
+          <div>
+            <p
+              class="text-xs font-semibold tracking-widest text-gray-400 uppercase"
+            >
+              Company
+            </p>
+
+            <ul class="mt-8 space-y-5">
+              <li>
+                <a
+                  href="#about-us"
+                  title="Learn more about who we are and why we started."
+                  class="inline-flex text-base font-medium text-gray-900 transition-all duration-200 hover:translate-x-1 hover:text-blue-600"
+                >
+                  About Us
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="training.html"
+                  title="We offer many courses amongst many different sectors to enable and empower people around us. Take a look at the various courses we have to offer."
+                  class="inline-flex text-base font-medium text-gray-900 transition-all duration-200 hover:translate-x-1 hover:text-blue-600"
+                >
+                  Training
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="npo.html"
+                  title="View how we give back to the community."
+                  class="inline-flex text-base font-medium text-gray-900 transition-all duration-200 hover:translate-x-1 hover:text-blue-600"
+                >
+                  Giving Back
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="media.html"
+                  title="Abaguquli has been featured in the media multiple times. View the articles and posts we have recently been featured in."
+                  class="inline-flex text-base font-medium text-gray-900 transition-all duration-200 hover:translate-x-1 hover:text-blue-600"
+                >
+                  Media
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <p
+              class="text-xs font-semibold tracking-widest text-gray-400 uppercase"
+            >
+              Help
+            </p>
+
+            <ul class="mt-8 space-y-5">
+              <li>
+                <a
+                  href="contact-us.html"
+                  title="View our contact information"
+                  class="inline-flex text-base font-medium text-gray-900 transition-all duration-200 hover:translate-x-1 hover:text-blue-600"
+                >
+                  Contact Us
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="privacy-policy.html"
+                  title="View Abaguquli's Privacy Policy to see how we protect your personal information."
+                  class="inline-flex text-base font-medium text-gray-900 transition-all duration-200 hover:translate-x-1 hover:text-blue-600"
+                >
+                  Privacy Policy
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="w-full md:max-w-xs">
+            <p
+              class="text-xs font-semibold tracking-widest text-gray-400 uppercase"
+            >
+              Newsletter
+            </p>
+
+            <form
+              action="https://abaguquli.us14.list-manage.com/subscribe/post?u=b909c53072fa2983486f927c4&amp;id=fce5129609&amp;f_id=009b92e0f0"
+              method="post"
+              id="mc-embedded-subscribe-form"
+              name="mc-embedded-subscribe-form"
+              class="validate mt-5 space-y-4"
+              target="_blank"
+              novalidate
+            >
+              <div>
+                <label for="mce-EMAIL" class="sr-only"> Email address </label>
+                <input
+                  type="email"
+                  name="EMAIL"
+                  id="mce-EMAIL"
+                  placeholder="Enter your email address"
+                  class="block w-full px-4 py-4 text-base text-gray-900 border border-gray-200 rounded-xl bg-gray-50 focus:bg-white focus:outline-none focus:border-purple focus:ring-1 focus:ring-purple"
+                />
+              </div>
+              <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+              <div style="position: absolute; left: -5000px" aria-hidden="true">
+                <input
+                  type="text"
+                  name="b_b909c53072fa2983486f927c4_fce5129609"
+                  tabindex="-1"
+                  value=""
+                />
+              </div>
+              <button
+                type="submit"
+                value="Subscribe"
+                name="subscribe"
+                id="mc-embedded-subscribe"
+                class="inline-flex bg-gradient-to-r from-blue to-purple items-center justify-center w-full px-6 py-4 text-base font-medium text-white transition-all duration-200 border border-transparent rounded-full hover:shadow-purple focus:shadow-purple"
+              >
+                Subscribe Now
+              </button>
+            </form>
+          </div>
+        </div>
+
+        <div
+          class="pt-12 mt-12 text-center border-t border-gray-200 sm:mt-16 lg:mt-20"
+        >
+          <p class="text-sm font-normal text-gray-900">
+            © Copyright <span id="year">2023</span> Abaguquli | All Rights
+            Reserved. Designed by
+            <a
+              href="https://lumazalabs.com"
+              class="hover:text-blue focus:text-blue transition-all"
+              >Lumaza Labs.</a
+            >
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="loader.js"></script>
+  </body>
+</html>
