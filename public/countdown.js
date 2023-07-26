@@ -17,13 +17,13 @@ var x = setInterval(function () {
 
   // Output the result in an element with id="demo"
   document.getElementById("days").innerHTML =
-    days + "<span class='grid text-sm mt-0 pt-0'>DAYS ";
+    days + "<span class='grid text-xs md:text-sm mt-0 pt-0'>DAYS ";
   document.getElementById("hours").innerHTML =
-    hours + "<span class='grid text-sm mt-0 pt-0'>HOURS ";
+    hours + "<span class='grid text-xs md:text-sm mt-0 pt-0'>HOURS ";
   document.getElementById("mins").innerHTML =
-    minutes + "<span class='grid text-sm mt-0 pt-0'>MINS";
+    minutes + "<span class='grid text-xs md:text-sm mt-0 pt-0'>MINS";
   document.getElementById("seconds").innerHTML =
-    seconds + "<span class='grid text-sm mt-0 pt-0'>SECONDS";
+    seconds + "<span class='grid text-xs md:text-sm mt-0 pt-0'>SECONDS";
 
   // If the count down is over, write some text
   if (distance < 0) {
