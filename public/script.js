@@ -19,13 +19,8 @@ document.addEventListener("keydown", function (e) {
   }
 });
 
-document.querySelector("#vote-btn").addEventListener("click", function () {
-  phoneMenu.classList.remove("flex");
-  phoneMenu.classList.add("hidden");
-});
-
 exitBtn.addEventListener("click", function () {
-  phoneMenu.classList.remove("flex");
+  phoneMenu.classList.remove("flex-col");
   phoneMenu.classList.add("hidden");
 });
 
