@@ -14,7 +14,7 @@ menuButton.addEventListener("click", function () {
 
 document.addEventListener("keydown", function (e) {
   if (!phoneMenu.classList.contains("hidden") && e.key == "Escape") {
-    phoneMenu.classList.remove("flex");
+    phoneMenu.classList.remove("flex-col");
     phoneMenu.classList.add("hidden");
   }
 });
