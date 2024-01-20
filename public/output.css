@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 
 /*
-! tailwindcss v3.3.1 | MIT License | https://tailwindcss.com
+! tailwindcss v3.3.5 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -193,6 +193,10 @@ select,
 textarea {
   font-family: inherit;
   /* 1 */
+  font-feature-settings: inherit;
+  /* 1 */
+  font-variation-settings: inherit;
+  /* 1 */
   font-size: 100%;
   /* 1 */
   font-weight: inherit;
@@ -344,6 +348,14 @@ menu {
 }
 
 /*
+Reset default styling for dialogs.
+*/
+
+dialog {
+  padding: 0;
+}
+
+/*
 Prevent resizing textareas horizontally by default.
 */
 
@@ -438,6 +450,9 @@ video {
   --tw-pan-y:  ;
   --tw-pinch-zoom:  ;
   --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
   --tw-ordinal:  ;
   --tw-slashed-zero:  ;
   --tw-numeric-figure:  ;
@@ -485,6 +500,9 @@ video {
   --tw-pan-y:  ;
   --tw-pinch-zoom:  ;
   --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
   --tw-ordinal:  ;
   --tw-slashed-zero:  ;
   --tw-numeric-figure:  ;
@@ -797,8 +815,24 @@ video {
   height: 100vh;
 }
 
+.w-20{
+  width: 5rem;
+}
+
+.w-28{
+  width: 7rem;
+}
+
+.w-32{
+  width: 8rem;
+}
+
 .w-36{
   width: 9rem;
+}
+
+.w-40{
+  width: 10rem;
 }
 
 .w-56{
@@ -825,16 +859,17 @@ video {
   width: 24rem;
 }
 
-.w-\[550px\]{
-  width: 550px;
-}
-
 .w-\[600px\]{
   width: 600px;
 }
 
 .w-auto{
   width: auto;
+}
+
+.w-fit{
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 .w-full{
@@ -933,6 +968,10 @@ video {
   list-style-type: disc;
 }
 
+.grid-flow-col{
+  grid-auto-flow: column;
+}
+
 .grid-cols-1{
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
@@ -1005,10 +1044,6 @@ video {
   gap: 2.5rem;
 }
 
-.gap-2{
-  gap: 0.5rem;
-}
-
 .gap-20{
   gap: 5rem;
 }
@@ -1019,10 +1054,6 @@ video {
 
 .gap-4{
   gap: 1rem;
-}
-
-.gap-5{
-  gap: 1.25rem;
 }
 
 .gap-6{
@@ -1163,15 +1194,12 @@ video {
 
 .from-blue{
   --tw-gradient-from: #262262 var(--tw-gradient-from-position);
-  --tw-gradient-from-position:  ;
-  --tw-gradient-to: rgb(38 34 98 / 0)  var(--tw-gradient-from-position);
-  --tw-gradient-to-position:  ;
+  --tw-gradient-to: rgb(38 34 98 / 0) var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
 .to-purple{
   --tw-gradient-to: #F552C7 var(--tw-gradient-to-position);
-  --tw-gradient-to-position:  ;
 }
 
 .p-10{
@@ -1184,6 +1212,10 @@ video {
 
 .p-20{
   padding: 5rem;
+}
+
+.p-4{
+  padding: 1rem;
 }
 
 .p-5{
@@ -1202,11 +1234,6 @@ video {
 .px-12{
   padding-left: 3rem;
   padding-right: 3rem;
-}
-
-.px-16{
-  padding-left: 4rem;
-  padding-right: 4rem;
 }
 
 .px-2{
@@ -1307,12 +1334,12 @@ video {
   padding-bottom: 3rem;
 }
 
-.pb-16{
-  padding-bottom: 4rem;
-}
-
 .pb-2{
   padding-bottom: 0.5rem;
+}
+
+.pb-3{
+  padding-bottom: 0.75rem;
 }
 
 .pb-36{
@@ -1345,10 +1372,6 @@ video {
 
 .pt-20{
   padding-top: 5rem;
-}
-
-.pt-24{
-  padding-top: 6rem;
 }
 
 .pt-3{
@@ -1536,6 +1559,10 @@ video {
 
 .underline{
   text-decoration-line: underline;
+}
+
+.opacity-80{
+  opacity: 0.8;
 }
 
 .shadow-lg{
@@ -2120,11 +2147,6 @@ video {
     line-height: 1;
   }
 
-  .md\:text-base{
-    font-size: 1rem;
-    line-height: 1.5rem;
-  }
-
   .md\:text-xl{
     font-size: 1.25rem;
     line-height: 1.75rem;
@@ -2176,12 +2198,20 @@ video {
     width: 66.666667%;
   }
 
+  .lg\:grid-cols-1{
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
   .lg\:grid-cols-2{
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .lg\:grid-cols-4{
     grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .lg\:grid-rows-1{
+    grid-template-rows: repeat(1, minmax(0, 1fr));
   }
 
   .lg\:flex-row{
@@ -2313,10 +2343,6 @@ video {
     padding-right: 6rem;
   }
 
-  .xl\:pt-16{
-    padding-top: 4rem;
-  }
-
   .xl\:pt-20{
     padding-top: 5rem;
   }
@@ -2347,10 +2373,6 @@ video {
 }
 
 @media (min-width: 1536px){
-  .\32xl\:pb-52{
-    padding-bottom: 13rem;
-  }
-
   .\32xl\:pb-64{
     padding-bottom: 16rem;
   }
